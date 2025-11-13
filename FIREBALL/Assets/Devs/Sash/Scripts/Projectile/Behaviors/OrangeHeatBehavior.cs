@@ -4,6 +4,7 @@ public class OrangeHeatBehavior : MonoBehaviour, IProjectileBehavior {
 
     void OnCollisionEnter(Collision collision) {
         IHeatable heatableObject = collision.gameObject.GetComponent<IHeatable>();
+        
         if (heatableObject != null) heatableObject.ApplyHeat();
         FireballPoolManager.Instance.ReturnFireball(this.gameObject);
     }
