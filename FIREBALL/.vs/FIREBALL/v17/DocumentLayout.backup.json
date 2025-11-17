@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rafae\\Desktop\\Juegos y Portfolio\\FIREBALL\\FIREBALL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|c:\\users\\rafae\\desktop\\juegos y portfolio\\fireball\\fireball\\assets\\devs\\rafa\\waterzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\rafa\\waterzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WaterZone.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\Juegos y Portfolio\\FIREBALL\\FIREBALL\\Assets\\Devs\\Rafa\\WaterZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Devs\\Rafa\\WaterZone.cs",
+              "ToolTip": "C:\\Users\\rafae\\Desktop\\Juegos y Portfolio\\FIREBALL\\FIREBALL\\Assets\\Devs\\Rafa\\WaterZone.cs",
+              "RelativeToolTip": "Assets\\Devs\\Rafa\\WaterZone.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T10:32:01.483Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
