@@ -11,37 +11,10 @@ public class WaterZone : MonoBehaviour
     [Tooltip("Duración del puente en segundos")]
     public float duracionPuente = 15f;
 
-    [Tooltip("Tamaño de cada plataforma")]
-    public Vector3 tamanoPlatforma = new Vector3(2f, 0.2f, 2f);
-
     [Tooltip("Altura sobre el agua")]
     public float alturaPlataforma = 0.15f;
 
-    [Header("Visual")]
-    [Tooltip("Material de hielo")]
-    public Material materialHielo;
-
-    [Header("Audio (Opcional)")]
-    public AudioClip sonidoCreacion;
-    public AudioClip sonidoRomperse;
-
-    private AudioSource audioSource;
     private List<GameObject> plataformasActivas = new List<GameObject>();
-
-    void Start()
-    {
-        // Configurar AudioSource si hay sonidos
-        if (sonidoCreacion != null || sonidoRomperse != null)
-        {
-            audioSource = gameObject.AddComponent<AudioSource>();
-        }
-
-        // Si no hay prefab asignado, crear uno automáticamente
-        if (plataformaHieloPrefab == null)
-        {
-            CrearPrefabPorDefecto();
-        }
-    }
 
     void OnCollisionEnter(Collision collision)
     {
@@ -70,16 +43,9 @@ public class WaterZone : MonoBehaviour
 
         // Instanciar la plataforma
         GameObject nuevaPlataforma = Instantiate(plataformaHieloPrefab, posicionPlataforma, Quaternion.identity);
-        nuevaPlataforma.transform.localScale = tamanoPlatforma;
 
         // Agregar a la lista de plataformas activas
         plataformasActivas.Add(nuevaPlataforma);
-
-        // Reproducir sonido de creación
-        if (sonidoCreacion != null && audioSource != null)
-        {
-            audioSource.PlayOneShot(sonidoCreacion);
-        }
 
         // Iniciar temporizador para destruir
         StartCoroutine(DestruirPlataformaDespuesDeTiempo(nuevaPlataforma, duracionPuente));
@@ -100,12 +66,6 @@ public class WaterZone : MonoBehaviour
     {
         if (plataforma == null) yield break;
 
-        // Reproducir sonido
-        if (sonidoRomperse != null && audioSource != null)
-        {
-            audioSource.PlayOneShot(sonidoRomperse);
-        }
-
         // Efecto de parpadeo
         Renderer renderer = plataforma.GetComponent<Renderer>();
         if (renderer != null)
@@ -122,33 +82,6 @@ public class WaterZone : MonoBehaviour
         Destroy(plataforma);
 
         Debug.Log("Plataforma destruida");
-    }
-
-    void CrearPrefabPorDefecto()
-    {
-        // Crear un cubo como prefab básico
-        plataformaHieloPrefab = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        plataformaHieloPrefab.name = "PlataformaHielo";
-
-        // Aplicar material si existe
-        if (materialHielo != null)
-        {
-            plataformaHieloPrefab.GetComponent<Renderer>().material = materialHielo;
-        }
-        else
-        {
-            // Crear material azul claro por defecto
-            Material matHielo = new Material(Shader.Find("Standard"));
-            matHielo.color = new Color(0.7f, 0.9f, 1f, 0.8f);
-            matHielo.SetFloat("_Metallic", 0.3f);
-            matHielo.SetFloat("_Glossiness", 0.9f);
-            plataformaHieloPrefab.GetComponent<Renderer>().material = matHielo;
-        }
-
-        // Desactivar para usar como prefab
-        plataformaHieloPrefab.SetActive(false);
-
-        Debug.Log("Prefab de plataforma creado automáticamente");
     }
 
     // Método público para crear plataforma manualmente (útil para debugging)
