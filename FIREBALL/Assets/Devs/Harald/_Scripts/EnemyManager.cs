@@ -25,7 +25,6 @@ public class EnemyManager : MonoBehaviour
     {
         if(freezableComponent != null)
         {
-            freezableComponent.ApplyFreeze();
             if (freezeCoroutine != null)
             {
                 StopCoroutine(freezeCoroutine);
