@@ -3,7 +3,6 @@ using UnityEngine;
 public class EnemyManager : MonoBehaviour
 {
     int hp = 1000;
-    int damage = 100;
     float baseSpeed = 5.0f;
     float currentSpeed;
     [SerializeField] private float cooldownTime = 5.0f;
@@ -36,7 +35,27 @@ public class EnemyManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Movimiento izquierda-derecha entre límites fijos
+        float leftLimit = -5f;
+        float rightLimit = 5f;
+
+        // Dirección basada en el signo de localScale.x (no requiere campos adicionales)
+        float dir = Mathf.Sign(transform.localScale.x);
+
+        // Mover
+        transform.Translate(Vector3.right * dir * currentSpeed * Time.deltaTime, Space.World);
+
+        // Girar al llegar a los límites
+        if (transform.position.x >= rightLimit && dir > 0f)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        }
+        else if (transform.position.x <= leftLimit && dir < 0f)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        }
         
+        Debug.Log("Velocidad actual: " + currentSpeed + ", HP: " + hp);
     }
 
     // Aplicar congelación
@@ -44,13 +63,11 @@ public class EnemyManager : MonoBehaviour
     {
         if (freezableComponent != null)
         {
-            // 1. Cambiar color y aplicar efecto visual (lo hace SimpleFreezable)
             freezableComponent.ApplyFreeze();
 
-            // 2. Reducir velocidad por 5 segundos
             if (freezeCoroutine != null)
             {
-                StopCoroutine(freezeCoroutine); // Detener cualquier congelación anterior
+                StopCoroutine(freezeCoroutine);
             }
             freezeCoroutine = StartCoroutine(FreezeEffect(5.0f));
         }
@@ -59,21 +76,21 @@ public class EnemyManager : MonoBehaviour
     // Aplicar congelación
     private System.Collections.IEnumerator FreezeEffect(float duration)
     {
-        float speedReductionFactor = 0.5f; // Por ejemplo, reducir la velocidad al 50%
+        float speedReductionFactor = 0.5f;
         currentSpeed = baseSpeed * speedReductionFactor;
         
         yield return new WaitForSeconds(duration);
 
-        // Volver a la velocidad normal y reestablecer el color (deberías añadir lógica de 'Unfreeze' en SimpleFreezable)
         currentSpeed = baseSpeed;
-        // freezableComponent.Unfreeze(); // *Si añades este método a la interfaz*
     }
 
     // Aplicar quemadura
     public void ApplyBurn()
     {
-        // Reducir HP en 100 puntos
-        hp -= damage;
+        heatableComponent?.ApplyHeat();
+        
+        // Reducir HP en 2 puntos
+        hp -= 2;
     }
 
     // Behavior de estado 1
