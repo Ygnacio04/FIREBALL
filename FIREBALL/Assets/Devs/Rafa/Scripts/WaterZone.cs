@@ -23,6 +23,11 @@ public class WaterZone : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            if (other.GetComponent<PlayerLifeManager>() != null)
+            {
+                other.GetComponent<PlayerLifeManager>().loseLife();
+                Debug.Log("VIDA PERDIDA || Vidas actuales: " + other.GetComponent<PlayerLifeManager>()._currentLives);
+            }
             if(drownTP != null)
             {
                 other.transform.position = drownTP.position;
