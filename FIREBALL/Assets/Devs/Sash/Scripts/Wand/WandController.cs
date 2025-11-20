@@ -20,6 +20,11 @@ public class WandController : MonoBehaviour
     public event Action<System.Type, int> onBehaviorChanged;
     public event Action onAmmoUsed;
 
+    [Header("UI Diegética")]
+    //public Transform ammoBarRoot;
+    public Transform ammoFill;
+    public float maxBarHeight = 0.2f;
+
     void Start() {
         currentBehavior = defaultBehavior;
         Debug.Log(currentBehavior.Name);
@@ -44,6 +49,7 @@ public class WandController : MonoBehaviour
         if (specialShotsRemaining > 0) {
             specialShotsRemaining--;
             onAmmoUsed?.Invoke();
+            UpdateAmmoBar();
             
             if (specialShotsRemaining == 0) {
                 currentBehavior = defaultBehavior;
@@ -57,8 +63,23 @@ public class WandController : MonoBehaviour
 
         currentBehavior = gem.GetBehaviorType();
         specialShotsRemaining = gem.GetShotCount();
+        UpdateAmmoBar();
         
         Debug.Log($"{currentBehavior.Name}, {specialShotsRemaining} shots");
         onBehaviorChanged?.Invoke(currentBehavior, specialShotsRemaining);
+    }
+
+    private void UpdateAmmoBar()
+    {
+        if(ammoFill == null) return;
+
+        float maxShots = 5f;
+
+        float normalized = Mathf.Clamp01(specialShotsRemaining / maxShots);
+        ammoFill.localScale = new Vector3(
+            ammoFill.localScale.x,
+            ammoFill.localScale.y,
+            ammoFill.localScale.z * normalized
+        );
     }
 }
