@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Unity\\FIREBALL\\FIREBALL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|f:\\unity\\fireball\\fireball\\assets\\devs\\miquel\\scripts\\wandsocketloadermodified.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\miquel\\scripts\\wandsocketloadermodified.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|f:\\unity\\fireball\\fireball\\assets\\devs\\miquel\\scripts\\wandcontrollermodified.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\miquel\\scripts\\wandcontrollermodified.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|F:\\Unity\\FIREBALL\\FIREBALL\\assets\\devs\\sash\\scripts\\wand\\wandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\sash\\scripts\\wand\\wandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|F:\\Unity\\FIREBALL\\FIREBALL\\assets\\devs\\sash\\scripts\\gems\\igem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\sash\\scripts\\gems\\igem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|F:\\Unity\\FIREBALL\\FIREBALL\\assets\\devs\\sash\\scripts\\simplefreezable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\sash\\scripts\\simplefreezable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WandSocketLoaderModified.cs",
+              "DocumentMoniker": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Miquel\\Scripts\\WandSocketLoaderModified.cs",
+              "RelativeDocumentMoniker": "Assets\\Devs\\Miquel\\Scripts\\WandSocketLoaderModified.cs",
+              "ToolTip": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Miquel\\Scripts\\WandSocketLoaderModified.cs",
+              "RelativeToolTip": "Assets\\Devs\\Miquel\\Scripts\\WandSocketLoaderModified.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:14:00.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WandControllerModified.cs",
+              "DocumentMoniker": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Miquel\\Scripts\\WandControllerModified.cs",
+              "RelativeDocumentMoniker": "Assets\\Devs\\Miquel\\Scripts\\WandControllerModified.cs",
+              "ToolTip": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Miquel\\Scripts\\WandControllerModified.cs",
+              "RelativeToolTip": "Assets\\Devs\\Miquel\\Scripts\\WandControllerModified.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:12:39.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WandController.cs",
+              "DocumentMoniker": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sash\\Scripts\\Wand\\WandController.cs",
+              "RelativeDocumentMoniker": "Assets\\Devs\\Sash\\Scripts\\Wand\\WandController.cs",
+              "ToolTip": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sash\\Scripts\\Wand\\WandController.cs",
+              "RelativeToolTip": "Assets\\Devs\\Sash\\Scripts\\Wand\\WandController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:08:45.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IGem.cs",
+              "DocumentMoniker": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sash\\Scripts\\Gems\\IGem.cs",
+              "RelativeDocumentMoniker": "Assets\\Devs\\Sash\\Scripts\\Gems\\IGem.cs",
+              "ToolTip": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sash\\Scripts\\Gems\\IGem.cs",
+              "RelativeToolTip": "Assets\\Devs\\Sash\\Scripts\\Gems\\IGem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:07:16.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SimpleFreezable.cs",
+              "DocumentMoniker": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sash\\Scripts\\SimpleFreezable.cs",
+              "RelativeDocumentMoniker": "Assets\\Devs\\Sash\\Scripts\\SimpleFreezable.cs",
+              "ToolTip": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sash\\Scripts\\SimpleFreezable.cs",
+              "RelativeToolTip": "Assets\\Devs\\Sash\\Scripts\\SimpleFreezable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:06:57.678Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
