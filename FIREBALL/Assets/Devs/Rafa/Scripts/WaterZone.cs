@@ -16,6 +16,21 @@ public class WaterZone : MonoBehaviour
 
     private List<GameObject> plataformasActivas = new List<GameObject>();
 
+    [SerializeField]
+    private Transform drownTP;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            if(drownTP != null)
+            {
+                other.transform.position = drownTP.position;
+
+                //Logica de quitarle una vida al jugador
+            }
+        }
+    }
     void OnCollisionEnter(Collision collision)
     {
         // Detectar si es una bola de hielo
@@ -27,8 +42,9 @@ public class WaterZone : MonoBehaviour
             // Crear plataforma en ese punto
             CrearPlataformaHielo(puntoImpacto);
 
-            // Opcional: destruir la bola de hielo
+            // Destruir la bola de hielo
             Destroy(collision.gameObject);
+
         }
     }
 
