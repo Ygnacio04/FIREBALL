@@ -2087,6 +2087,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 165888, guid: 11da0dc541152df43aa9381f400aec98, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1374861895}
+    - targetCorrespondingSourceObject: {fileID: 165888, guid: 11da0dc541152df43aa9381f400aec98, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1374861896}
   m_SourcePrefab: {fileID: 100100000, guid: 11da0dc541152df43aa9381f400aec98, type: 3}
 --- !u!4 &1374861889 stripped
 Transform:
@@ -2247,6 +2250,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!23 &1374861893 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2369172, guid: 11da0dc541152df43aa9381f400aec98, type: 3}
+  m_PrefabInstance: {fileID: 1374861888}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &1374861894 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 3392658, guid: 11da0dc541152df43aa9381f400aec98, type: 3}
+  m_PrefabInstance: {fileID: 1374861888}
+  m_PrefabAsset: {fileID: 0}
 --- !u!65 &1374861895
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2268,6 +2281,26 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.061506905, y: 0.43418774, z: 0.061734222}
   m_Center: {x: 0.0036833994, y: 0.12670654, z: -0.0013516521}
+--- !u!114 &1374861896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374861890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0d8a24ab30a1d4c9a40ffc960d28e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wandMeshFilter: {fileID: 1374861894}
+  wandMeshRenderer: {fileID: 1374861893}
+  blueMesh: {fileID: 4300136, guid: bd0b11e9d52832b4da1d9110e49dd889, type: 3}
+  greenMesh: {fileID: 4300152, guid: 7374575f12d49ba459e91009f7a9ec62, type: 3}
+  purpleMesh: {fileID: 4300192, guid: 7374575f12d49ba459e91009f7a9ec62, type: 3}
+  redMesh: {fileID: 4300172, guid: 7374575f12d49ba459e91009f7a9ec62, type: 3}
+  yellowMesh: {fileID: 4300112, guid: 8355b02b82e584d3fa85ae2184fe275e, type: 3}
+  socketInteractor: {fileID: 1108708849}
 --- !u!1001 &1393331696
 PrefabInstance:
   m_ObjectHideFlags: 0
