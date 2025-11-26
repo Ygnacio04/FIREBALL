@@ -1263,7 +1263,7 @@ MonoBehaviour:
   patrolSpeed: 0.5
   chaseSpeed: 0.5
   detectionRadius: 5
-  attackRange: 0.5
+  attackRange: 1
   fleeDuration: 1
 --- !u!82 &840195863
 AudioSource:
