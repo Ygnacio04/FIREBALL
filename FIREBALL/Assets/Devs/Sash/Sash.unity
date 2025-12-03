@@ -1980,7 +1980,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1108708847}
   - component: {fileID: 1108708848}
-  - component: {fileID: 1108708849}
+  - component: {fileID: 1108708850}
+  - component: {fileID: 1108708851}
   m_Layer: 0
   m_Name: OrbInsert
   m_TagString: Untagged
@@ -2024,7 +2025,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.15
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1108708849
+--- !u!114 &1108708850
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2033,9 +2034,63 @@ MonoBehaviour:
   m_GameObject: {fileID: 1108708846}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 328b862cbbe984de7bdda312d88c4aa7, type: 3}
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_Handedness: 0
+  m_AttachTransform: {fileID: 1108708847}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1108708851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108708846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2585a5d4c32c74d2db8925f1d3657718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wandController: {fileID: 1374861898}
+  wandMeshFilter: {fileID: 1374861900}
+  defaultMesh: {fileID: 4300112, guid: 7374575f12d49ba459e91009f7a9ec62, type: 3}
+  blueMesh: {fileID: 4300136, guid: 7374575f12d49ba459e91009f7a9ec62, type: 3}
+  redMesh: {fileID: 4300172, guid: 7374575f12d49ba459e91009f7a9ec62, type: 3}
+  greenMesh: {fileID: 4300152, guid: 7374575f12d49ba459e91009f7a9ec62, type: 3}
+  purpleMesh: {fileID: 4300192, guid: 7374575f12d49ba459e91009f7a9ec62, type: 3}
+  yellowMesh: {fileID: 4300112, guid: 7374575f12d49ba459e91009f7a9ec62, type: 3}
 --- !u!1 &1111763668
 GameObject:
   m_ObjectHideFlags: 0
@@ -2899,6 +2954,11 @@ MonoBehaviour:
   launchForce: 25
   redBouncyMaterial: {fileID: 13400000, guid: 28ec376ceb11440efb4b5e72889df704, type: 2}
   redBallTargetTag: PuzzleTarget
+--- !u!33 &1374861900 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 3392658, guid: 11da0dc541152df43aa9381f400aec98, type: 3}
+  m_PrefabInstance: {fileID: 1374861888}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1393331696
 PrefabInstance:
   m_ObjectHideFlags: 0
