@@ -1,12 +1,13 @@
 using UnityEngine;
-using System; // Para System.Type
+using System;
 
+[RequireComponent(typeof(TrajectoryVisualizer))]
 public class WandController : MonoBehaviour
 {
     [Header("Projectile settings")]
     public GameObject fireballPrefab; 
     public Transform shootPoint; 
-    public float launchForce = 10f;
+    public float launchForce = 20f;
 
     [Header("Behavior assets")]
     public PhysicsMaterial redBouncyMaterial;
@@ -16,20 +17,34 @@ public class WandController : MonoBehaviour
     private System.Type defaultBehavior = typeof(OrangeHeatBehavior);
     private System.Type currentBehavior;
     private int specialShotsRemaining = 0;
-    
+    private TrajectoryVisualizer visualizer;
     public event Action<System.Type, int> onBehaviorChanged;
     public event Action onAmmoUsed;
 
+    void Awake() {
+        visualizer = GetComponent<TrajectoryVisualizer>();
+        if(visualizer == null) visualizer = gameObject.AddComponent<TrajectoryVisualizer>();
+    }
+
     void Start() {
         currentBehavior = defaultBehavior;
-        Debug.Log(currentBehavior.Name);
-    
+    }
+
+    void Update() {
+        if (currentBehavior == typeof(RedBounceBehavior) && specialShotsRemaining > 0) visualizer.DrawPath(shootPoint.position, shootPoint.forward);
+        else visualizer.HidePath();
     }
 
     public void ShootFireball() {
         if (fireballPrefab == null || shootPoint == null || currentBehavior == null) return;
-    
         GameObject newBall = FireballPoolManager.Instance.GetFireball();
+        
+        Rigidbody ballRb = newBall.GetComponent<Rigidbody>();
+        if(ballRb != null) {
+            ballRb.linearVelocity = Vector3.zero;
+            ballRb.angularVelocity = Vector3.zero;
+        }
+
         newBall.transform.position = shootPoint.position;
         newBall.transform.rotation = shootPoint.rotation;
 
@@ -48,6 +63,7 @@ public class WandController : MonoBehaviour
             if (specialShotsRemaining == 0) {
                 currentBehavior = defaultBehavior;
                 onBehaviorChanged?.Invoke(currentBehavior, 0);
+                visualizer.HidePath(); 
             }
         }
     }
@@ -58,7 +74,6 @@ public class WandController : MonoBehaviour
         currentBehavior = gem.GetBehaviorType();
         specialShotsRemaining = gem.GetShotCount();
         
-        Debug.Log($"{currentBehavior.Name}, {specialShotsRemaining} shots");
         onBehaviorChanged?.Invoke(currentBehavior, specialShotsRemaining);
     }
 }
