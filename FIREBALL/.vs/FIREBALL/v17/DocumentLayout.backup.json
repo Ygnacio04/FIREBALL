@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\miquel\\backgroundmusicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|f:\\unity\\fireball\\fireball\\assets\\devs\\rafa\\scripts\\waterzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|F:\\Unity\\FIREBALL\\FIREBALL\\assets\\devs\\rafa\\scripts\\waterzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\rafa\\scripts\\waterzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Assets\\Devs\\Rafa\\Scripts\\WaterZone.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAgwBUAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T14:43:23.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T14:43:23.432Z"
             },
             {
               "$type": "Document",
