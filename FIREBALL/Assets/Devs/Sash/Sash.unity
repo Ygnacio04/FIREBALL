@@ -1678,6 +1678,7 @@ MonoBehaviour:
   plataformaHieloPrefab: {fileID: 6081307884900708175, guid: 4a0d16e588cb0994ebb9c465f4165ca9, type: 3}
   duracionPuente: 15
   alturaPlataforma: 0.15
+  respawnPoint: {fileID: 0}
 --- !u!1 &1108708846
 GameObject:
   m_ObjectHideFlags: 0
@@ -4710,7 +4711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec16109164fc4716bcc5f6a6c3e2bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 5
   currentHealth: 0
 --- !u!1001 &442441821019622469
 PrefabInstance:
