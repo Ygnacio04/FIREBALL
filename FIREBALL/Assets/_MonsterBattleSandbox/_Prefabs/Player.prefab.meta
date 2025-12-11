@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2709a9e5bac00d642957ce1b35cf5353
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Prefabs/Player.prefab
+  uploadId: 440902

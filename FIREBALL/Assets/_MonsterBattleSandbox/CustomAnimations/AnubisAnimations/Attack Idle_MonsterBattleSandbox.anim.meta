@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c530886981b0937458abf238259459d6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomAnimations/AnubisAnimations/Attack
+    Idle_MonsterBattleSandbox.anim
+  uploadId: 440902

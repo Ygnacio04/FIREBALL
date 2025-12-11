@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5c6f2c2418c798949ad38a4f303cc910
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Scripts/_Monster/ScriptableObjectAI/MonsterActions/MonsterAction.cs
+  uploadId: 440902

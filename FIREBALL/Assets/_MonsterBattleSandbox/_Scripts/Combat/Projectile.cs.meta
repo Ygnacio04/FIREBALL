@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9e5b79d3c2166d4478444806dea4443d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Scripts/Combat/Projectile.cs
+  uploadId: 440902

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 543094a3accb2c544be7a3fe495aa349
+timeCreated: 1469434909
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomAnimations/FlyingEyeAnimations/FlyingEye_MonsterBattleSandbox.controller
+  uploadId: 440902

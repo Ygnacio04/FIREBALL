@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 76bb0d205c5d9704ea04c01f9655d6ef
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomAnimations/SerpentWarriorAnimations/attack1_MonsterBattleSandbox.anim
+  uploadId: 440902

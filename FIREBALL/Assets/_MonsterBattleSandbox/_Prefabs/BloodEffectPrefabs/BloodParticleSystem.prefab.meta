@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 483bba4a50dfafc4a8eb7407c572ae76
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Prefabs/BloodEffectPrefabs/BloodParticleSystem.prefab
+  uploadId: 440902

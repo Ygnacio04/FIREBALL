@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7c9164c29e7b76b43841be2e195bafdc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Prefabs/_DummyTemplates/DummyMonster_Stats_Template.asset
+  uploadId: 440902

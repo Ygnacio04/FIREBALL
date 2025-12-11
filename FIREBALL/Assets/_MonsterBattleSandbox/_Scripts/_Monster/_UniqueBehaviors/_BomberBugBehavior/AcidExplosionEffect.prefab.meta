@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a5eac3ce20b1f294a8d175cfb168b304
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Scripts/_Monster/_UniqueBehaviors/_BomberBugBehavior/AcidExplosionEffect.prefab
+  uploadId: 440902

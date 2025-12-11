@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4380aa834a90a2c43aa617414f72c221
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Prefabs/UIPrefabs/ScrollingText.prefab
+  uploadId: 440902

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 49eced4ac69af462fbe86b9c629657f1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomCharacterMaterials/BomberBug_ColorShifter.mat
+  uploadId: 440902

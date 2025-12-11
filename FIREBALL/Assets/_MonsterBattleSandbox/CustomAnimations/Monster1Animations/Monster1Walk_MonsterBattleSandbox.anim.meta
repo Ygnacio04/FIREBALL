@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0ee5255281ab532419bdd54dc9b00bcb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomAnimations/Monster1Animations/Monster1Walk_MonsterBattleSandbox.anim
+  uploadId: 440902

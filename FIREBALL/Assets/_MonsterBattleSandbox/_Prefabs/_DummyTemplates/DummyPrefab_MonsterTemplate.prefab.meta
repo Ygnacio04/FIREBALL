@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c35a70a398a9af544ac352c7ccbc5469
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Prefabs/_DummyTemplates/DummyPrefab_MonsterTemplate.prefab
+  uploadId: 440902

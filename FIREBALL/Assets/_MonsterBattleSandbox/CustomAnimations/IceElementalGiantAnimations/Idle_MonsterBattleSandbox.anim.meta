@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 75b1b6789c3d4fa42bbf5f989f3082a7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomAnimations/IceElementalGiantAnimations/Idle_MonsterBattleSandbox.anim
+  uploadId: 440902

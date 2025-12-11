@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3937681e0395d1a40a030503c03e18c4
+timeCreated: 1480305317
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomAnimations/DragonAnimations/Dragon_MonsterBattleSandbox.controller
+  uploadId: 440902

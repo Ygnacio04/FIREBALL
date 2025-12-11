@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c2e8abd561c8d9f478da6dddca0ed347
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomAnimations/Monster2Animations/WalkLoopPose.anim
+  uploadId: 440902

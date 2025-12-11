@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c5c26dfce2cde594dacbf818c71d9a07
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Stats_CharacterAndAttack_SOs/MonsterStats/Slime_Stats.asset
+  uploadId: 440902

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d4f967860195c8d45b4c257f866c41e5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomAnimations/DemonAnimations/DemonCastLoopTight_MonsterBattleSandbox.anim
+  uploadId: 440902

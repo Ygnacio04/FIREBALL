@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 67a8d6354eb1d7345ad42c63b08a13b6
+timeCreated: 1435378633
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomAnimations/GiantWormAnimation/GiantWormLP_MonsterBattleArena.controller
+  uploadId: 440902

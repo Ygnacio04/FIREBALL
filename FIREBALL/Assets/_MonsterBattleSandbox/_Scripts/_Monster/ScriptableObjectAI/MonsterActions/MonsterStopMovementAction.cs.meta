@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9be0a3f008c34414792a66acdff5c6c8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Scripts/_Monster/ScriptableObjectAI/MonsterActions/MonsterStopMovementAction.cs
+  uploadId: 440902

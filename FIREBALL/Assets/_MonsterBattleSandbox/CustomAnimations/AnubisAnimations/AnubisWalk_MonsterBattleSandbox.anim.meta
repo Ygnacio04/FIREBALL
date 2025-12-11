@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a07e5b72e1a78dd43abe80690329bb5c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomAnimations/AnubisAnimations/AnubisWalk_MonsterBattleSandbox.anim
+  uploadId: 440902

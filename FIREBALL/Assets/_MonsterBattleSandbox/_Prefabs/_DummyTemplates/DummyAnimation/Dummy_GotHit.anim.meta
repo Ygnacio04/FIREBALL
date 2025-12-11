@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 69c910c2ee6de114a931817a8e8728e0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Prefabs/_DummyTemplates/DummyAnimation/Dummy_GotHit.anim
+  uploadId: 440902

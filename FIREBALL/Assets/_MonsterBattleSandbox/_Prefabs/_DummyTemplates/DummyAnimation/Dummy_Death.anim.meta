@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 65687026b7a7de44e8decb6020970e31
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Prefabs/_DummyTemplates/DummyAnimation/Dummy_Death.anim
+  uploadId: 440902

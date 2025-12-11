@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b40a645be6ddc11479ad33b433a71a37
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Prefabs/_DummyTemplates/DummyAnimation/Dummy_Attack1.anim
+  uploadId: 440902

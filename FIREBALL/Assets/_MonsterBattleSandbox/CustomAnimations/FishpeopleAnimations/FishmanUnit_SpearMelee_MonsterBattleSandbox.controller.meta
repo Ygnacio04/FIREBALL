@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 507440930d5354d48af1a69fb98c46de
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomAnimations/FishpeopleAnimations/FishmanUnit_SpearMelee_MonsterBattleSandbox.controller
+  uploadId: 440902

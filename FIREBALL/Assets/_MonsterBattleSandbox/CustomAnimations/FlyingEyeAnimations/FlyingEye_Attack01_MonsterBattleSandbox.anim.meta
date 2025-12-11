@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6b62ea72c95099c47b1a9d07d2ae65c5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomAnimations/FlyingEyeAnimations/FlyingEye_Attack01_MonsterBattleSandbox.anim
+  uploadId: 440902

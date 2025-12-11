@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7a36b9cb1b8f8d54b80b9cbc0e83168c
+timeCreated: 1443907204
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomAnimations/IceElementalGiantAnimations/IceElementalGiant_MonsterBattleSandbox.controller
+  uploadId: 440902

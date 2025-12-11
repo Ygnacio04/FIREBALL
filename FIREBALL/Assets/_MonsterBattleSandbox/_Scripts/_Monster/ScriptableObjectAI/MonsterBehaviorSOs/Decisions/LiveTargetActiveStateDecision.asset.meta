@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e1cb68eaa93a7a444973b93ebd2802f3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Scripts/_Monster/ScriptableObjectAI/MonsterBehaviorSOs/Decisions/LiveTargetActiveStateDecision.asset
+  uploadId: 440902

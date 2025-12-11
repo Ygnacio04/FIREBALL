@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 18a518765ec849d4290a758ec4bfe64e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomAnimations/AnubisAnimations/Walk
+    Backwards.anim
+  uploadId: 440902

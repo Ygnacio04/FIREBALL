@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b48b927f315dde643891c1d861e9bd4e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Stats_CharacterAndAttack_SOs/UnitStats/MummyUnit_Stats.asset
+  uploadId: 440902

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e17273149be38b540bf1319e8794ff1a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Prefabs/_UnitPrefabs/SerpentWarriorUnit_Melee.prefab
+  uploadId: 440902

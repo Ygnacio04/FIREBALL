@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 626a7e704d6ea634c81df8a362648a94
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/Materials/SimpleSkybox.mat
+  uploadId: 440902

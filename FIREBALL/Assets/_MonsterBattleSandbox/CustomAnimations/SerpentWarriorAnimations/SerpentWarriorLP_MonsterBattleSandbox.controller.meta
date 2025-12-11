@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 43e8b8247982f714c92126c57c793b90
+timeCreated: 1466631552
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/CustomAnimations/SerpentWarriorAnimations/SerpentWarriorLP_MonsterBattleSandbox.controller
+  uploadId: 440902

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 475a05629abd3124a99fd648209f0f48
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193710
+  packageName: Monster Battle Sandbox - Low Poly Sandbox URP
+  packageVersion: 1.0
+  assetPath: Assets/_MonsterBattleSandbox/_Prefabs/_DummyTemplates/DummyAnimation/Dummy_ACTemplate_MonsterBattleSandbox.controller
+  uploadId: 440902
