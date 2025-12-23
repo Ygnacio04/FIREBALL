@@ -27,12 +27,13 @@ public class AttackState : IEnemyState {
 
     private void PerformAttack(EnemyAi enemy) {
         if (enemy.playerTarget == null) return;
-        PlayerHealth playerHp = enemy.playerTarget.GetComponent<PlayerHealth>();
+        
+        PlayerManager playerStats = enemy.playerTarget.GetComponent<PlayerManager>();
         EnemyManager myStats = enemy.GetComponent<EnemyManager>();
 
-        if (playerHp != null) {
+        if (playerStats != null) {
             int damageDealt = (myStats != null) ? myStats.damage : 10;            
-            playerHp.TakeDamage(damageDealt);
+            playerStats.TakeDamage(damageDealt);
         }
     }
 }

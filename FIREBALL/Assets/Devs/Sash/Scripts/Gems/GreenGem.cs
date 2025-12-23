@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class GreenGem : MonoBehaviour, IGem
 {
-    [SerializeField]
-    private int shotCount = 6;
+    [SerializeField] private int shotCount = 6;
+    [SerializeField] private float manaCost = 20f;
 
     public System.Type GetBehaviorType()
     {
@@ -13,5 +13,10 @@ public class GreenGem : MonoBehaviour, IGem
     public int GetShotCount()
     {
         return shotCount;
+    }
+
+    public float GetManaCost()
+    {
+        return manaCost;
     }
 }

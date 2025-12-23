@@ -4,17 +4,15 @@ using System;
 [RequireComponent(typeof(TrajectoryVisualizer))]
 public class WandController : MonoBehaviour
 {
-    [Header("Projectile settings")]
     public GameObject fireballPrefab; 
     public Transform shootPoint; 
     public float launchForce = 20f;
-
-    [Header("Behavior assets")]
     public PhysicsMaterial redBouncyMaterial;
     public string redBallTargetTag = "PuzzleTarget";
     public GameObject greenPlatformPrefab;
-
-    [Header("Ammo system")]
+    public GameObject purpleBlackHolePrefab;
+    public float defaultShotCost = 5f; 
+    private float currentSpecialManaCost = 0f; 
     private System.Type defaultBehavior = typeof(OrangeHeatBehavior);
     private System.Type currentBehavior;
     private int specialShotsRemaining = 0;
@@ -32,17 +30,28 @@ public class WandController : MonoBehaviour
     }
 
     void Update() {
-        if (currentBehavior == typeof(RedBounceBehavior) && specialShotsRemaining > 0) visualizer.DrawPath(shootPoint.position, shootPoint.forward);
-        else visualizer.HidePath();
+        if (currentBehavior == typeof(RedBounceBehavior) && specialShotsRemaining > 0) 
+            visualizer.DrawPath(shootPoint.position, shootPoint.forward);
+        else 
+            visualizer.HidePath();
     }
-
     public void ShootFireball() {
         if (fireballPrefab == null || shootPoint == null || currentBehavior == null) return;
-        GameObject newBall = FireballPoolManager.Instance.GetFireball();
+
+        if (PlayerManager.Instance != null) {
+            float costToSpend = (specialShotsRemaining > 0) ? currentSpecialManaCost : defaultShotCost;
+
+            if (!PlayerManager.Instance.TrySpendMana(costToSpend)) {
+                Debug.Log("Not enough mana to shoot the fireball.");
+                return; 
+            }
+        }
         
+        GameObject newBall = FireballPoolManager.Instance.GetFireball();
         Rigidbody ballRb = newBall.GetComponent<Rigidbody>();
         if(ballRb != null) {
-            ballRb.linearVelocity = Vector3.zero;
+            ballRb.isKinematic = false;
+            ballRb.linearVelocity = Vector3.zero; 
             ballRb.angularVelocity = Vector3.zero;
         }
 
@@ -63,6 +72,7 @@ public class WandController : MonoBehaviour
             
             if (specialShotsRemaining == 0) {
                 currentBehavior = defaultBehavior;
+                currentSpecialManaCost = 0f;
                 onBehaviorChanged?.Invoke(currentBehavior, 0);
                 visualizer.HidePath(); 
             }
@@ -74,6 +84,7 @@ public class WandController : MonoBehaviour
 
         currentBehavior = gem.GetBehaviorType();
         specialShotsRemaining = gem.GetShotCount();
+        currentSpecialManaCost = gem.GetManaCost();
         
         onBehaviorChanged?.Invoke(currentBehavior, specialShotsRemaining);
     }
