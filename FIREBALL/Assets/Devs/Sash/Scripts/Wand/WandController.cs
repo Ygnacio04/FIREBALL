@@ -12,6 +12,7 @@ public class WandController : MonoBehaviour
     [Header("Behavior assets")]
     public PhysicsMaterial redBouncyMaterial;
     public string redBallTargetTag = "PuzzleTarget";
+    public GameObject greenPlatformPrefab;
 
     [Header("Ammo system")]
     private System.Type defaultBehavior = typeof(OrangeHeatBehavior);
