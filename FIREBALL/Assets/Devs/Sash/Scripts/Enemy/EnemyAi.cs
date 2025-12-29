@@ -14,6 +14,7 @@ public class EnemyAi : MonoBehaviour, IHeatable, IFreezable
     public Color colorCongelado = Color.blue;
     public Color colorQuemado = Color.red;
     private Color colorOriginal;
+    private Animator _animator;
 
     [Header("settings")]
     public float patrolSpeed = 2.5f;
@@ -28,7 +29,9 @@ public class EnemyAi : MonoBehaviour, IHeatable, IFreezable
     void Awake()
     {
         Agent = GetComponent<NavMeshAgent>();
-        enemyManager = GetComponent<EnemyManager>(); 
+        enemyManager = GetComponent<EnemyManager>();
+        _animator = GetComponentInChildren<Animator>();
+        Debug.Log("Animator found: " + _animator);
         
         if (meshRenderer == null) meshRenderer = GetComponentInChildren<MeshRenderer>();
         
@@ -47,12 +50,22 @@ public class EnemyAi : MonoBehaviour, IHeatable, IFreezable
     void Update()
     {
         if (currentState != null && !IsStunned) currentState.Update(this);
+
+        if(_animator != null)
+        {
+            _animator.SetFloat("Speed", Agent.velocity.magnitude);
+        }
     }
 
     public void ChangeState(IEnemyState newState) {
         if (currentState != null) currentState.Exit(this);
         currentState = newState;
         if (currentState != null) currentState.Enter(this);
+
+        if(_animator != null)
+        {
+            _animator.SetBool("IsChasing", newState is ChaseState);
+        }
     }
 
     public void ApplyHeat() {
