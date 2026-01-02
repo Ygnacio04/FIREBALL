@@ -25,6 +25,7 @@ public class EnemyAi : MonoBehaviour, IHeatable, IFreezable
     
     private IEnemyState currentState;
     public bool IsStunned { get; set; } = false;
+    private float speedMultiplier = 1.0f; 
 
     void Awake()
     {
@@ -49,12 +50,35 @@ public class EnemyAi : MonoBehaviour, IHeatable, IFreezable
 
     void Update()
     {
-        if (currentState != null && !IsStunned) currentState.Update(this);
+        if (currentState != null && !IsStunned) 
+        {
+            currentState.Update(this);
+            UpdateSpeed(); 
+        }
 
         if(_animator != null)
         {
             _animator.SetFloat("Speed", Agent.velocity.magnitude);
         }
+        
+    }
+
+    public void SetSpeedModifier(float multiplier)
+    {
+        speedMultiplier = multiplier;
+    }
+
+    public void ResetSpeedModifier()
+    {
+        speedMultiplier = 1.0f;
+    }
+
+    private void UpdateSpeed()
+    {
+        float baseSpeed = patrolSpeed;
+        if (currentState is ChaseState) baseSpeed = chaseSpeed;
+        
+        Agent.speed = baseSpeed * speedMultiplier;
     }
 
     public void ChangeState(IEnemyState newState) {
