@@ -10,6 +10,12 @@ public class Lever : MonoBehaviour
     [SerializeField]
     private UnityEvent OnLeverOff;
 
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         switch (other.gameObject.name)
@@ -22,5 +28,5 @@ public class Lever : MonoBehaviour
                 break;
         }
 
-        }
+    }
 }
