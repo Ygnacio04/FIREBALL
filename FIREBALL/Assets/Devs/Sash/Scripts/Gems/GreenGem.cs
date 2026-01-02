@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public class RedGem : MonoBehaviour, IGem
+public class GreenGem : MonoBehaviour, IGem
 {
-    [SerializeField] private int shotCount = 10;
-    [SerializeField] private float manaCost = 10f; 
+    [SerializeField] private int shotCount = 6;
+    [SerializeField] private float manaCost = 20f;
 
     public System.Type GetBehaviorType()
     {
-        return typeof(RedBounceBehavior);
+        return typeof(GreenBehavior);
     }
 
     public int GetShotCount()

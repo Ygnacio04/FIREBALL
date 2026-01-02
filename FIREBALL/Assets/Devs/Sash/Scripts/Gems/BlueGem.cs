@@ -1,13 +1,22 @@
 using UnityEngine;
 
-public class BlueGem : MonoBehaviour, IGem {
-    [SerializeField]
-    private int shotCount = 3;
-    public System.Type GetBehaviorType() {
+public class BlueGem : MonoBehaviour, IGem
+{
+    [SerializeField] private int shotCount = 8;
+    [SerializeField] private float manaCost = 15f; 
+
+    public System.Type GetBehaviorType()
+    {
         return typeof(BlueFreezeBehavior);
     }
 
-    public int GetShotCount() {
+    public int GetShotCount()
+    {
         return shotCount;
+    }
+
+    public float GetManaCost()
+    {
+        return manaCost;
     }
 }
