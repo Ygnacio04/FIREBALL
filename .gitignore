@@ -1,3 +1,4 @@
+# Unity generated folders
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -5,18 +6,31 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
+
+# User-specific settings
 UserSettings/
+
+# Package cache (safe to ignore)
 Packages/com.unity.package-manager-ui/
+
+# IDE / Editor files
+.vscode/
+.idea/
+.vs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Visual Studio / MonoDevelop
 *.csproj
 *.sln
-*.user
 *.unityproj
+*.user
 *.pidb
 *.booproj
 *.svd
-.vscode/
-.idea/
-.DS_Store
+
+# Builds
 *.apk
 *.aab
-.vs/
