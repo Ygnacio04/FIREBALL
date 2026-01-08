@@ -3,12 +3,7 @@ using UnityEngine;
 
 public class Demo_Controller : MonoBehaviour
 {
-    [SerializeField] private Runestone_Controller runestoneScript;
     [SerializeField] private Portal_Controller portalSimpleScripts;
-    [SerializeField] private PortalRound_Controller portalRoundScripts;
-    [SerializeField] private PortalGate_Controller portalGateScript;
-    [SerializeField] private Vortex_Controller vortexScript;
-    [SerializeField] private Rift_Controller riftScript;
     [SerializeField] private Transform camBaseTF;
     [SerializeField] private Light lightMain;
     [SerializeField] private GameObject[] SSCameras;
@@ -61,25 +56,20 @@ public class Demo_Controller : MonoBehaviour
         //On
         //start delay
         yield return new WaitForSeconds(1f);
-        runestoneScript.ToggleRuneStone(true);
         
         yield return new WaitForSeconds(3f);
         StartCoroutine(CameraRoutine());
         
         yield return new WaitForSeconds(2f);
-        portalRoundScripts.F_TogglePortalRound(true);
         
         yield return new WaitForSeconds(4f);
-        vortexScript.F_ToggleVortex(true);
         
         yield return new WaitForSeconds(10f);
-        portalGateScript.F_TogglePortalGate(true);
         
         yield return new WaitForSeconds(7f);
         portalSimpleScripts.TogglePortal(true);
         
         yield return new WaitForSeconds(9f);
-        riftScript.F_ToggleRift(true);
         
         yield return new WaitForSeconds(3f);
         StartCoroutine(FadeLight());
@@ -88,22 +78,17 @@ public class Demo_Controller : MonoBehaviour
         
         //Off
         yield return new WaitForSeconds(8f);
-        runestoneScript.ToggleRuneStone(false);
         
         yield return new WaitForSeconds(2f);
-        portalRoundScripts.F_TogglePortalRound(false);
         
         yield return new WaitForSeconds(5f);
-        vortexScript.F_ToggleVortex(false);
         
         yield return new WaitForSeconds(9f);
-        portalGateScript.F_TogglePortalGate(false);
         
         yield return new WaitForSeconds(7f);
         portalSimpleScripts.TogglePortal(false);
         
         yield return new WaitForSeconds(10f);
-        riftScript.F_ToggleRift(false);
     }
 
     private IEnumerator CameraRoutine()
