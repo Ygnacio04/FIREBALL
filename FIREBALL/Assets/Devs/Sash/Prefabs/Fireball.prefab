@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2026914253341442102}
   - component: {fileID: 6524878613072574397}
   - component: {fileID: 2723937338865987672}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Fireball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ Rigidbody:
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 193
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
