@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 3496f79c550bdcb4e90cf3ef4ef56e57
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 242322
-  packageName: Low Poly Fantasy Medieval Town LITE
-  packageVersion: 1.0
-  assetPath: Assets/FantasyMedievalTown_LITE/Materials/MedievalTownLite_Glass.mat
-  uploadId: 626371
+version https://git-lfs.github.com/spec/v1
+oid sha256:def8d59a8d852316b677f0aca915d8d954864640ca12bc73adf3508cf7642206
+size 427

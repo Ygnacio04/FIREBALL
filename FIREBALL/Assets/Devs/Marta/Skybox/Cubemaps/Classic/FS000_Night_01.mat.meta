@@ -1,13 +1,3 @@
-fileFormatVersion: 2
-guid: ab675e6698bde46fd87143fb0d7580cb
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 18353
-  packageName: Fantasy Skybox FREE
-  packageVersion: 1.6.5
-  assetPath: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.mat
-  uploadId: 699843
+version https://git-lfs.github.com/spec/v1
+oid sha256:1dd4be13651b2cfa7fc1c0c0dc49d8e914350f7475a5d894793c7ab9eb7c68e3
+size 360

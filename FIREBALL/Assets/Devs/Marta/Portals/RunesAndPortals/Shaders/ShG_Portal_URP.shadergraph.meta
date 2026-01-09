@@ -1,17 +1,3 @@
-fileFormatVersion: 2
-guid: 558cf0a2518705647919732a57b77fdd
-ScriptedImporter:
-  internalIDToNameTable: []
-  externalObjects: {}
-  serializedVersion: 2
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
-AssetOrigin:
-  serializedVersion: 1
-  productId: 85098
-  packageName: RunesAndPortals
-  packageVersion: 5.0
-  assetPath: Assets/@PaulosCreations/RunesAndPortals/Shaders/ShG_Portal_URP.shadergraph
-  uploadId: 609286
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8211e2cf61e1c9467d265abe1b3381d4b6fab408e5723cd9338291f8726f0db
+size 517

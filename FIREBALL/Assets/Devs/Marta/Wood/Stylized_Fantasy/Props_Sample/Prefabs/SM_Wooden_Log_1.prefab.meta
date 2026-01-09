@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 8f75d7d8649593341822be19369f95fb
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 234139
-  packageName: 'Stylized Fantasy: Props Sample'
-  packageVersion: 1.0
-  assetPath: Assets/Stylized_Labs/Stylized_Fantasy/Props_Sample/Prefabs/SM_Wooden_Log_1.prefab
-  uploadId: 529674
+version https://git-lfs.github.com/spec/v1
+oid sha256:82dd859a00849344cb0cbe68b4de96052f7bcf1f1792cb2bcb92efc4d1e36f00
+size 408

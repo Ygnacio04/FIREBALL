@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: f5a0d64d733d72145acf8ac504d556d9
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 85098
-  packageName: RunesAndPortals
-  packageVersion: 5.0
-  assetPath: Assets/@PaulosCreations/RunesAndPortals/Effects/Particles/Materials/PartMat_Sphere.mat
-  uploadId: 609286
+version https://git-lfs.github.com/spec/v1
+oid sha256:491ba595c96e43235791befb390a56be0c1637edc30f0038ff332c1d6b1bad1c
+size 430

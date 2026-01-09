@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: addcaad2054ee2e4a90a462d1e0af394
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 234139
-  packageName: 'Stylized Fantasy: Props Sample'
-  packageVersion: 1.0
-  assetPath: Assets/Stylized_Labs/Stylized_Fantasy/Props_Sample/Prefabs/SM_Platform_2.prefab
-  uploadId: 529674
+version https://git-lfs.github.com/spec/v1
+oid sha256:76a2b02893ed71ca04af97898e5cdaa516579f6f0f5825fb28f9a28a4878074e
+size 406

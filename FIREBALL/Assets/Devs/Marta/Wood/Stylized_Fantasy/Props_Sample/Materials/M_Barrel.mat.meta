@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 5373ab9890a54d04cb4ced74bdcfc37c
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 234139
-  packageName: 'Stylized Fantasy: Props Sample'
-  packageVersion: 1.0
-  assetPath: Assets/Stylized_Labs/Stylized_Fantasy/Props_Sample/Materials/M_Barrel.mat
-  uploadId: 529674
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba0ebba2f9771d07cc28ca415e69b56864718df9e97cb84f19dedcbc90f996cf
+size 435

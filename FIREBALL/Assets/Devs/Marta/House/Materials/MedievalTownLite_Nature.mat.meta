@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: c52178879e8e28e4fbbea32638564cd5
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 242322
-  packageName: Low Poly Fantasy Medieval Town LITE
-  packageVersion: 1.0
-  assetPath: Assets/FantasyMedievalTown_LITE/Materials/MedievalTownLite_Nature.mat
-  uploadId: 626371
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b63de1b7f1fc3886d6345de7c4d8007234f7705b0918a8629c7a75c9f2baaec
+size 428

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 3ca34c99030a80343bba2ff129a30fda
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 85098
-  packageName: RunesAndPortals
-  packageVersion: 5.0
-  assetPath: Assets/@PaulosCreations/RunesAndPortals/Effects/Particles/Materials/PartMat_PortalRunes.mat
-  uploadId: 609286
+version https://git-lfs.github.com/spec/v1
+oid sha256:02ca5562c8ad92a0fe7f87a30982f51558bdec1061a38a1c861b82912edba179
+size 435

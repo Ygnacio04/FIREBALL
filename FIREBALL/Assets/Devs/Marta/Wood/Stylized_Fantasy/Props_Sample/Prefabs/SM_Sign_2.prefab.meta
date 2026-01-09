@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 03e1f310bef02c8488d781c1bcbc70c1
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 234139
-  packageName: 'Stylized Fantasy: Props Sample'
-  packageVersion: 1.0
-  assetPath: Assets/Stylized_Labs/Stylized_Fantasy/Props_Sample/Prefabs/SM_Sign_2.prefab
-  uploadId: 529674
+version https://git-lfs.github.com/spec/v1
+oid sha256:a42b2a5ef465b210bf16859a6df3d2bc049c6e8061f13b5d49d96d15fc6b9ed2
+size 402

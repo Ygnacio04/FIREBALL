@@ -1,18 +1,3 @@
-fileFormatVersion: 2
-guid: 41cd04035de9d7648bf214f5bd23d596
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 85098
-  packageName: RunesAndPortals
-  packageVersion: 5.0
-  assetPath: Assets/@PaulosCreations/RunesAndPortals/Demo/RotatorTool.cs
-  uploadId: 609286
+version https://git-lfs.github.com/spec/v1
+oid sha256:bfc2987bb0fa7abf279598ddca5f93fab0ab39c8103516fec43362ee409276b1
+size 461

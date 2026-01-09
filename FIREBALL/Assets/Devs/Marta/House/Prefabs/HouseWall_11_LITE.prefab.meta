@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 61b9dd48e54ad8f48b34dd5d75bb8e39
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 242322
-  packageName: Low Poly Fantasy Medieval Town LITE
-  packageVersion: 1.0
-  assetPath: Assets/FantasyMedievalTown_LITE/Prefabs/HouseWall_11_LITE.prefab
-  uploadId: 626371
+version https://git-lfs.github.com/spec/v1
+oid sha256:421f00b17d18a3a062388d2ad24b7f5b8f921d41dbd56bf574095e3e354991ed
+size 394

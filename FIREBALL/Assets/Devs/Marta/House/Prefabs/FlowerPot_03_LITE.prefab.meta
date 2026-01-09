@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 1a09ebba9d893894da11cb4098853e64
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 242322
-  packageName: Low Poly Fantasy Medieval Town LITE
-  packageVersion: 1.0
-  assetPath: Assets/FantasyMedievalTown_LITE/Prefabs/FlowerPot_03_LITE.prefab
-  uploadId: 626371
+version https://git-lfs.github.com/spec/v1
+oid sha256:77880356e6f1a729acf3e4a73fc2dccc044e9e92b5cc3dd873472b398b31c353
+size 394
