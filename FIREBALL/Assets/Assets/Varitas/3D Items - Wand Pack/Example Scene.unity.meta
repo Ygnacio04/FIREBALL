@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 75e66e6f045e81c46a743b4dbf7d6406
-timeCreated: 1437672985
-licenseType: Store
-DefaultImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 46225
-  packageName: 3D Items -  Free Wand Pack
-  packageVersion: 1.0
-  assetPath: Assets/3D Items - Wand Pack/Example Scene.unity
-  uploadId: 361852
+version https://git-lfs.github.com/spec/v1
+oid sha256:69c30d659b3c188a0d7b47675031f7835c677b89ecc93c12bd2e107c91f204c0
+size 390
