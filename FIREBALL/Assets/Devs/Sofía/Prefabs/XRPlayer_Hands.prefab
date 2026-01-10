@@ -1012,7 +1012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   matGlow: {fileID: 2100000, guid: 54c8451b55ffecb48864cfb6ba684d60, type: 2}
   matOff: {fileID: -876546973899608171, guid: e19b5bb6cb8e91e43b1b5d81a069296f, type: 3}
-  playerManager: {fileID: 0}
+  playerManager: {fileID: 3757950727818500945}
   LifeObjects:
   - {fileID: 7381274504533439577}
   - {fileID: 8306559353973273482}
@@ -1371,6 +1371,7 @@ GameObject:
   - component: {fileID: 6520291404937146767}
   - component: {fileID: 5826056641483426609}
   - component: {fileID: 5033801203051696737}
+  - component: {fileID: 3757950727818500945}
   m_Layer: 2
   m_Name: XRPlayer_Hands
   m_TagString: Untagged
@@ -1507,6 +1508,33 @@ MonoBehaviour:
   m_AimAssistRequiredSpeed: 0.25
   m_AimAssistPercent: 0.8
   m_AimAssistMaxSpeedPercent: 10
+--- !u!114 &3757950727818500945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717954561962503725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec16109164fc4716bcc5f6a6c3e2bc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxLives: 5
+  healthRegenDelay: 5
+  healthRegenInterval: 2
+  maxMana: 100
+  manaRegenRate: 15
+  manaRegenDelay: 1
+  OnLivesChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnManaChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlayerDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1772748316763733012
 GameObject:
   m_ObjectHideFlags: 0

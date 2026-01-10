@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5852239496832731229}
+  - component: {fileID: 7099022521255659656}
   m_Layer: 0
   m_Name: ChargeCounter
   m_TagString: Untagged
@@ -32,6 +33,20 @@ Transform:
   - {fileID: 3102420496821146058}
   m_Father: {fileID: 4002899444384418376}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7099022521255659656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895256566275272540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaaa70b8dd61a8045a703fbab606c408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counterBar: {fileID: 3102420496821146058}
+  playerManager: {fileID: 3757950727818500945, guid: ff6467c83fe2bb0439e99b7f943d81c7, type: 3}
 --- !u!1 &1786755066876423042
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,13 +561,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5171880449655833398}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
+  m_LocalRotation: {x: 0, y: 0.2588191, z: 0, w: 0.9659258}
   m_LocalPosition: {x: -0.004, y: 0.1222, z: -0.0096}
-  m_LocalScale: {x: 0.004, y: 0.05, z: 0.001}
+  m_LocalScale: {x: 0.006, y: 0.05, z: 0.001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5852239496832731229}
-  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
 --- !u!33 &6842342049843627660
 MeshFilter:
   m_ObjectHideFlags: 0
