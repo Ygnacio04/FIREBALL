@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "F:\\Unity\\FIREBALL\\FIREBALL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{127B9D1B-CDB6-DC08-EB5D-61A81A300475}|Assembly-CSharp-Editor.csproj|f:\\unity\\fireball\\fireball\\assets\\editor\\addtorchaudiotolights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{127B9D1B-CDB6-DC08-EB5D-61A81A300475}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\addtorchaudiotolights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|f:\\unity\\fireball\\fireball\\assets\\devs\\miquel\\backgroundmusicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\miquel\\backgroundmusicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AddTorchAudioToLights.cs",
+              "DocumentMoniker": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Editor\\AddTorchAudioToLights.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\AddTorchAudioToLights.cs",
+              "ToolTip": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Editor\\AddTorchAudioToLights.cs",
+              "RelativeToolTip": "Assets\\Editor\\AddTorchAudioToLights.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T16:19:20.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BackgroundMusicManager.cs",
               "DocumentMoniker": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Miquel\\BackgroundMusicManager.cs",
               "RelativeDocumentMoniker": "Assets\\Devs\\Miquel\\BackgroundMusicManager.cs",
               "ToolTip": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Miquel\\BackgroundMusicManager.cs",
               "RelativeToolTip": "Assets\\Devs\\Miquel\\BackgroundMusicManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T15:52:19.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "WaterZone.cs",
               "DocumentMoniker": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Rafa\\Scripts\\WaterZone.cs",
               "RelativeDocumentMoniker": "Assets\\Devs\\Rafa\\Scripts\\WaterZone.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WandController.cs",
               "DocumentMoniker": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sash\\Scripts\\Wand\\WandController.cs",
               "RelativeDocumentMoniker": "Assets\\Devs\\Sash\\Scripts\\Wand\\WandController.cs",
