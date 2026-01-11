@@ -7695,6 +7695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotCount: 10
+  manaCost: 10
 --- !u!114 &700904985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8156,6 +8157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotCount: 10
+  manaCost: 10
 --- !u!114 &749834703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9299,7 +9301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13638,6 +13640,9 @@ MonoBehaviour:
   launchForce: 25
   redBouncyMaterial: {fileID: 13400000, guid: 28ec376ceb11440efb4b5e72889df704, type: 2}
   redBallTargetTag: PuzzleTarget
+  greenPlatformPrefab: {fileID: 0}
+  purpleBlackHolePrefab: {fileID: 0}
+  defaultShotCost: 5
 --- !u!114 &1226910722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15162,6 +15167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotCount: 10
+  manaCost: 10
 --- !u!114 &1302875538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18084,6 +18090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotCount: 10
+  manaCost: 15
 --- !u!114 &1454232520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18424,6 +18431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotCount: 10
+  manaCost: 15
 --- !u!114 &1473693153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18823,8 +18831,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec16109164fc4716bcc5f6a6c3e2bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
+  maxLives: 5
+  healthRegenDelay: 5
+  healthRegenInterval: 2
+  maxMana: 100
+  manaRegenRate: 15
+  manaRegenDelay: 1
+  OnLivesChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnManaChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlayerDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1480934606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24378,6 +24399,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotCount: 10
+  manaCost: 15
 --- !u!114 &1823867389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25828,6 +25850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotCount: 10
+  manaCost: 15
 --- !u!114 &1897005033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27778,6 +27801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotCount: 10
+  manaCost: 10
 --- !u!114 &1965265697
 MonoBehaviour:
   m_ObjectHideFlags: 0
