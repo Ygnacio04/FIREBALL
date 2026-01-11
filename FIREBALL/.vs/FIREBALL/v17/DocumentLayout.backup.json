@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Unity\\FIREBALL\\FIREBALL\\",
+  "WorkspaceRootPath": "D:\\Documents\\01_Uni\\4o_Q1\\FIREBALL\\FIREBALL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{127B9D1B-CDB6-DC08-EB5D-61A81A300475}|Assembly-CSharp-Editor.csproj|f:\\unity\\fireball\\fireball\\assets\\editor\\addtorchaudiotolights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{127B9D1B-CDB6-DC08-EB5D-61A81A300475}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\addtorchaudiotolights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\01_Uni\\4o_Q1\\FIREBALL\\FIREBALL\\Library\\PackageCache\\com.unity.render-pipelines.universal@fe5368074162\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@fe5368074162\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|f:\\unity\\fireball\\fireball\\assets\\devs\\miquel\\backgroundmusicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\miquel\\backgroundmusicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|d:\\documents\\01_uni\\4o_q1\\fireball\\fireball\\assets\\devs\\sof\u00EDa\\wandchargescounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\sof\u00EDa\\wandchargescounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|F:\\Unity\\FIREBALL\\FIREBALL\\assets\\devs\\rafa\\scripts\\waterzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\rafa\\scripts\\waterzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|D:\\Documents\\01_Uni\\4o_Q1\\FIREBALL\\FIREBALL\\assets\\devs\\sof\u00EDa\\livescounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\sof\u00EDa\\livescounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|F:\\Unity\\FIREBALL\\FIREBALL\\assets\\devs\\sash\\scripts\\wand\\wandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\sash\\scripts\\wand\\wandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|D:\\Documents\\01_Uni\\4o_Q1\\FIREBALL\\FIREBALL\\assets\\devs\\sash\\scripts\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\sash\\scripts\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,52 +31,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AddTorchAudioToLights.cs",
-              "DocumentMoniker": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Editor\\AddTorchAudioToLights.cs",
-              "RelativeDocumentMoniker": "Assets\\Editor\\AddTorchAudioToLights.cs",
-              "ToolTip": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Editor\\AddTorchAudioToLights.cs",
-              "RelativeToolTip": "Assets\\Editor\\AddTorchAudioToLights.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T16:19:20.857Z",
+              "Title": "Lit.shader",
+              "DocumentMoniker": "D:\\Documents\\01_Uni\\4o_Q1\\FIREBALL\\FIREBALL\\Library\\PackageCache\\com.unity.render-pipelines.universal@fe5368074162\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@fe5368074162\\Shaders\\Lit.shader",
+              "ToolTip": "D:\\Documents\\01_Uni\\4o_Q1\\FIREBALL\\FIREBALL\\Library\\PackageCache\\com.unity.render-pipelines.universal@fe5368074162\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@fe5368074162\\Shaders\\Lit.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-01-11T16:39:29.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BackgroundMusicManager.cs",
-              "DocumentMoniker": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Miquel\\BackgroundMusicManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Devs\\Miquel\\BackgroundMusicManager.cs",
-              "ToolTip": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Miquel\\BackgroundMusicManager.cs",
-              "RelativeToolTip": "Assets\\Devs\\Miquel\\BackgroundMusicManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAoAAAAAAAAAA==",
+              "Title": "WandChargesCounter.cs",
+              "DocumentMoniker": "D:\\Documents\\01_Uni\\4o_Q1\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sof\u00EDa\\WandChargesCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Devs\\Sof\u00EDa\\WandChargesCounter.cs",
+              "ToolTip": "D:\\Documents\\01_Uni\\4o_Q1\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sof\u00EDa\\WandChargesCounter.cs",
+              "RelativeToolTip": "Assets\\Devs\\Sof\u00EDa\\WandChargesCounter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T15:52:19.132Z",
+              "WhenOpened": "2026-01-10T16:49:45.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "WaterZone.cs",
-              "DocumentMoniker": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Rafa\\Scripts\\WaterZone.cs",
-              "RelativeDocumentMoniker": "Assets\\Devs\\Rafa\\Scripts\\WaterZone.cs",
-              "ToolTip": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Rafa\\Scripts\\WaterZone.cs",
-              "RelativeToolTip": "Assets\\Devs\\Rafa\\Scripts\\WaterZone.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwBUAAABGAAAAAAAAAA==",
+              "Title": "LivesCounter.cs",
+              "DocumentMoniker": "D:\\Documents\\01_Uni\\4o_Q1\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sof\u00EDa\\LivesCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Devs\\Sof\u00EDa\\LivesCounter.cs",
+              "ToolTip": "D:\\Documents\\01_Uni\\4o_Q1\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sof\u00EDa\\LivesCounter.cs",
+              "RelativeToolTip": "Assets\\Devs\\Sof\u00EDa\\LivesCounter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T14:43:23.432Z"
+              "WhenOpened": "2026-01-10T15:53:22.859Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "WandController.cs",
-              "DocumentMoniker": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sash\\Scripts\\Wand\\WandController.cs",
-              "RelativeDocumentMoniker": "Assets\\Devs\\Sash\\Scripts\\Wand\\WandController.cs",
-              "ToolTip": "F:\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sash\\Scripts\\Wand\\WandController.cs",
-              "RelativeToolTip": "Assets\\Devs\\Sash\\Scripts\\Wand\\WandController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCcAAAAwAAAAAAAAAA==",
+              "Title": "PlayerManager.cs",
+              "DocumentMoniker": "D:\\Documents\\01_Uni\\4o_Q1\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sash\\Scripts\\PlayerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Devs\\Sash\\Scripts\\PlayerManager.cs",
+              "ToolTip": "D:\\Documents\\01_Uni\\4o_Q1\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sash\\Scripts\\PlayerManager.cs",
+              "RelativeToolTip": "Assets\\Devs\\Sash\\Scripts\\PlayerManager.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAmwBQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T14:34:56.005Z"
+              "WhenOpened": "2026-01-10T15:59:17.728Z"
             }
           ]
         }

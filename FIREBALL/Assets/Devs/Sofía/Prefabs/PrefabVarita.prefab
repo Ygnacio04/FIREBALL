@@ -131,7 +131,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
@@ -287,8 +287,8 @@ MonoBehaviour:
   launchForce: 25
   redBouncyMaterial: {fileID: 13400000, guid: 28ec376ceb11440efb4b5e72889df704, type: 2}
   redBallTargetTag: PuzzleTarget
-  greenPlatformPrefab: {fileID: 0}
-  purpleBlackHolePrefab: {fileID: 0}
+  greenPlatformPrefab: {fileID: 3028846866416058336, guid: 078bafd80330842039096d65095d16fd, type: 3}
+  purpleBlackHolePrefab: {fileID: 6651271220802256132, guid: 325a1bb0c5f8847c38fedaaa943638dc, type: 3}
   defaultShotCost: 5
 --- !u!120 &4348673051724276047
 LineRenderer:
