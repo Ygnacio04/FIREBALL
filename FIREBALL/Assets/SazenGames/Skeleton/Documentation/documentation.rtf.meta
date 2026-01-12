@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 27886462b131dcf4ca029ed72ed633b7
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 306857
-  packageName: Stylized Low Poly Skeleton
-  packageVersion: 1.1
-  assetPath: Assets/SazenGames/Skeleton/Documentation/documentation.rtf
-  uploadId: 792234
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac02f41fbec7b182a1a341e76bde22961491838a162cb27bf997fc11b6c6d7fb
+size 366

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 7dd7a7496197d5840a691bf704fb4ab8
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 22100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 306857
-  packageName: Stylized Low Poly Skeleton
-  packageVersion: 1.1
-  assetPath: Assets/SazenGames/Skeleton/Art/Demo Animator Controllers/walk RM.overrideController
-  uploadId: 792234
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6febee514d9d5003b636588c74863bcbe24d94a38cdb0dfbebe34c9f37cf343
+size 425

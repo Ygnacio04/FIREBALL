@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: c25aacc7ee71ac54c8f3332e3578f45c
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 306857
-  packageName: Stylized Low Poly Skeleton
-  packageVersion: 1.1
-  assetPath: Assets/SazenGames/Skeleton/Art/Materials/Skeleton_Mat.mat
-  uploadId: 792234
+version https://git-lfs.github.com/spec/v1
+oid sha256:36ca9b2a3d54279e8d394d310ca26ba10bbc03b1b027b7cc90181f6f991e09c0
+size 398
