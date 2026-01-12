@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: ada89be3db57b8b40897532ec938f385
-timeCreated: 1442125010
-licenseType: Store
-TextScriptImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 46225
-  packageName: 3D Items -  Free Wand Pack
-  packageVersion: 1.0
-  assetPath: Assets/3D Items - Wand Pack/Read Me.txt
-  uploadId: 361852
+version https://git-lfs.github.com/spec/v1
+oid sha256:302355ece39efd17752ebc33a20120f4ae077d7d8e2503978e5e9a3d45fcc187
+size 385

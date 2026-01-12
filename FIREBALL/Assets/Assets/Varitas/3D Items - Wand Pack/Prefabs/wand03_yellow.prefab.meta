@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: f860e21d40912044096cc8d6b2501579
-timeCreated: 1442517365
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 46225
-  packageName: 3D Items -  Free Wand Pack
-  packageVersion: 1.0
-  assetPath: Assets/3D Items - Wand Pack/Prefabs/wand03_yellow.prefab
-  uploadId: 361852
+version https://git-lfs.github.com/spec/v1
+oid sha256:eac4be54c78332c664f713d5f873d5c4203c1344aaf71cb90d89bfc208458e18
+size 404

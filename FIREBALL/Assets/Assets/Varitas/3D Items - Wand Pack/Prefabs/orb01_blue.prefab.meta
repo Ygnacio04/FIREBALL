@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 59d1ef214639e9d47a9c84b42033ae5f
-timeCreated: 1442517702
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 46225
-  packageName: 3D Items -  Free Wand Pack
-  packageVersion: 1.0
-  assetPath: Assets/3D Items - Wand Pack/Prefabs/orb01_blue.prefab
-  uploadId: 361852
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a968062f17ecebb23d8c1f9219daa4edbabf63e010ba771abe44811a99e148e
+size 401

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 024878416813e4d4584ce0b722a07abd
-timeCreated: 1442517649
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 46225
-  packageName: 3D Items -  Free Wand Pack
-  packageVersion: 1.0
-  assetPath: Assets/3D Items - Wand Pack/Prefabs/orb05_yellow.prefab
-  uploadId: 361852
+version https://git-lfs.github.com/spec/v1
+oid sha256:cdf07ccd61582605987e6984a19accff50a61f61e2e90244fe2bf513efde6ac3
+size 403
