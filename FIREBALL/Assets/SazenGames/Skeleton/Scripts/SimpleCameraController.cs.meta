@@ -1,9 +1,3 @@
-fileFormatVersion: 2
-guid: 82e26807fca401943a61ddd7b3fabe6d
-AssetOrigin:
-  serializedVersion: 1
-  productId: 306857
-  packageName: Stylized Low Poly Skeleton
-  packageVersion: 1.1
-  assetPath: Assets/SazenGames/Skeleton/Scripts/SimpleCameraController.cs
-  uploadId: 792234
+version https://git-lfs.github.com/spec/v1
+oid sha256:487309824937aa7619aa6a67cc1fbbe9c65acdb6e5f49e3f29fe8c9b323eac21
+size 273

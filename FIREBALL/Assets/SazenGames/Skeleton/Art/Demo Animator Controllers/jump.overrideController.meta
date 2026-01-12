@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: ed216cf0dd167e44c9dd8739492adfd4
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 22100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 306857
-  packageName: Stylized Low Poly Skeleton
-  packageVersion: 1.1
-  assetPath: Assets/SazenGames/Skeleton/Art/Demo Animator Controllers/jump.overrideController
-  uploadId: 792234
+version https://git-lfs.github.com/spec/v1
+oid sha256:426ef8ef1876a41d0df7c3196c6505c5fc14bf90ef0c2503ff8470704bd4a21e
+size 422
