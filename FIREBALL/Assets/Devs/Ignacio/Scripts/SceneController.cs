@@ -5,8 +5,10 @@ public class SceneController : MonoBehaviour
 {
     // Nombres de las escenas (ajústalos según tus escenas en Build Settings)
     private const string SCENE_MENU = "Inicio";
+    private const string SCENE_TUTO = "Tutorial";
+    private const string SCENE_GAME = "Game";
     private const string SCENE_CREDITOS = "Creditos";
-    //private const string SCENE_GAME = "MainGame";
+
 
     // Método para cargar la escena del menú principal
     public void LoadMenuScene()
@@ -20,10 +22,16 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene(SCENE_CREDITOS);
     }
 
+    // Método para cargar la escena de créditos
+    public void LoadTutorialScene()
+    {
+        SceneManager.LoadScene(SCENE_TUTO);
+    }
+
     // Método para cargar la escena del juego principal
     public void LoadGameScene()
     {
-        //SceneManager.LoadScene(SCENE_GAME);
+        SceneManager.LoadScene(SCENE_GAME);
     }
 
     // Método genérico para cargar cualquier escena por nombre

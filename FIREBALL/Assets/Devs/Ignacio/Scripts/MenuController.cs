@@ -53,11 +53,11 @@ public class MenuController : MonoBehaviour
         // Por ahora carga la escena de créditos como prueba
         if (sceneController != null)
         {
-            sceneController.LoadCreditosScene();
+            sceneController.LoadTutorialScene();
         }
         else
         {
-            SceneManager.LoadScene("Creditos");
+            SceneManager.LoadScene("Tutorial");
         }
     }
 

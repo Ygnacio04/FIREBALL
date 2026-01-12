@@ -41710,6 +41710,104 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7936834669806457470, guid: 4adae8232505e0e45b64cc3b61e9d9e1, type: 3}
   m_PrefabInstance: {fileID: 1658601958}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1660016447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1660016448}
+  - component: {fileID: 1660016451}
+  - component: {fileID: 1660016450}
+  - component: {fileID: 1660016449}
+  m_Layer: 0
+  m_Name: trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1660016448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660016447}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.024344858, z: 0, w: 0.99970365}
+  m_LocalPosition: {x: -0.2, y: -0.339, z: -0.289}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2039643905}
+  m_LocalEulerAnglesHint: {x: 0, y: -2.79, z: 0}
+--- !u!114 &1660016449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660016447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b937db10f49820468fbe7ecdc70f34d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneAsset: {fileID: 102900000, guid: aad77e5185a551042b4d3f35a43e0632, type: 3}
+  sceneName: Creditos
+  playerRoot: {fileID: 0}
+  triggerCooldownSeconds: 0.2
+--- !u!54 &1660016450
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660016447}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1660016451
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660016447}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.47527623, y: 4.2633634, z: 2.5811958}
+  m_Center: {x: 0.26236188, y: 1.6316814, z: 0.16577673}
 --- !u!1001 &1662132672
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42173,7 +42271,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5303846970860061371, guid: 2557b316da33b034986a4b68ca98a463, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1660016448}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6923693691316303551, guid: 2557b316da33b034986a4b68ca98a463, type: 3}
       insertIndex: -1
