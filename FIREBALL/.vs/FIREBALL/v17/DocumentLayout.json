@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\rafae\\Desktop\\ESTUDIOS\\Unity\\FIREBALL\\FIREBALL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|C:\\Users\\rafae\\Desktop\\ESTUDIOS\\Unity\\FIREBALL\\FIREBALL\\assets\\devs\\rafa\\scripts\\waterzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\rafa\\scripts\\waterzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|c:\\users\\rafae\\desktop\\estudios\\unity\\fireball\\fireball\\assets\\devs\\sash\\scripts\\wand\\wandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\sash\\scripts\\wand\\wandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|C:\\Users\\rafae\\Desktop\\ESTUDIOS\\Unity\\FIREBALL\\FIREBALL\\assets\\devs\\miquel\\backgroundmusicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\miquel\\backgroundmusicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|C:\\Users\\rafae\\Desktop\\ESTUDIOS\\Unity\\FIREBALL\\FIREBALL\\assets\\devs\\rafa\\scripts\\waterzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{315421F2-A5CA-8EDA-556B-9DC5270037F6}|Assembly-CSharp.csproj|solutionrelative:assets\\devs\\rafa\\scripts\\waterzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AddTorchAudioToLights.cs",
               "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\ESTUDIOS\\Unity\\FIREBALL\\FIREBALL\\Assets\\Editor\\AddTorchAudioToLights.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\AddTorchAudioToLights.cs",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BackgroundMusicManager.cs",
               "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\ESTUDIOS\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Miquel\\BackgroundMusicManager.cs",
               "RelativeDocumentMoniker": "Assets\\Devs\\Miquel\\BackgroundMusicManager.cs",
@@ -54,25 +54,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "WaterZone.cs",
               "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\ESTUDIOS\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Rafa\\Scripts\\WaterZone.cs",
               "RelativeDocumentMoniker": "Assets\\Devs\\Rafa\\Scripts\\WaterZone.cs",
               "ToolTip": "C:\\Users\\rafae\\Desktop\\ESTUDIOS\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Rafa\\Scripts\\WaterZone.cs",
               "RelativeToolTip": "Assets\\Devs\\Rafa\\Scripts\\WaterZone.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwBUAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T14:43:23.432Z"
+              "WhenOpened": "2025-12-09T14:43:23.432Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WandController.cs",
               "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\ESTUDIOS\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sash\\Scripts\\Wand\\WandController.cs",
               "RelativeDocumentMoniker": "Assets\\Devs\\Sash\\Scripts\\Wand\\WandController.cs",
               "ToolTip": "C:\\Users\\rafae\\Desktop\\ESTUDIOS\\Unity\\FIREBALL\\FIREBALL\\Assets\\Devs\\Sash\\Scripts\\Wand\\WandController.cs",
               "RelativeToolTip": "Assets\\Devs\\Sash\\Scripts\\Wand\\WandController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA1wDEAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwDEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T14:34:56.005Z",
               "EditorCaption": ""
