@@ -3087,37 +3087,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650594972}
   m_CullTransparentMesh: 1
---- !u!1 &651722195
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 651722196}
-  m_Layer: 0
-  m_Name: --UI--
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &651722196
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651722195}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -70.74, y: 0.6101423, z: -0.9084337}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &658987804
 GameObject:
   m_ObjectHideFlags: 0
@@ -3171,7 +3140,7 @@ MonoBehaviour:
   AmbienceSlider: {fileID: 1571695833}
   MusicSlider: {fileID: 297777778}
   FXSlider: {fileID: 1148138355}
-  sceneController: {fileID: 0}
+  sceneController: {fileID: 1724895731}
 --- !u!1001 &689021968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11038,7 +11007,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 1724895730}
   - {fileID: 303689099}
-  - {fileID: 651722196}
   - {fileID: 1464220981}
   - {fileID: 1830715545}
   - {fileID: 658987805}
