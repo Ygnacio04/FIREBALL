@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Devs/Ignacio/Inicio.unity
+    guid: 2d972ce375d7bdd4da11327f18673e72
+  - enabled: 1
+    path: Assets/Devs/Ignacio/Creditos.unity
+    guid: aad77e5185a551042b4d3f35a43e0632
+  - enabled: 0
     path: Assets/Main/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
