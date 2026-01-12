@@ -5,7 +5,7 @@ using TMPro;
 
 public class MenuController : MonoBehaviour
 {
-    [SerializeField] private GameObject MainCanvas, PlayCanvas, OptionsCanvas;
+    [SerializeField] private GameObject MainCanvas, OptionsCanvas;
     [SerializeField] private Slider AmbienceSlider, MusicSlider, FXSlider;
 
     void Start()
@@ -27,21 +27,12 @@ public class MenuController : MonoBehaviour
     public void MostrarPanelMenuPrincipal()
     {
         MainCanvas.SetActive(true);
-        PlayCanvas.SetActive(false);
-        OptionsCanvas.SetActive(false);
-    }
-
-    public void MostrarPanelMenuJuego()
-    {
-        MainCanvas.SetActive(false);
-        PlayCanvas.SetActive(true);
         OptionsCanvas.SetActive(false);
     }
 
     public void MostrarPanelAjustes()
     {
         MainCanvas.SetActive(false);
-        PlayCanvas.SetActive(false);
         OptionsCanvas.SetActive(true);
     }
 
@@ -49,12 +40,6 @@ public class MenuController : MonoBehaviour
     {
         Application.Quit();
     }
-
-    public void IniciarTutorial()
-    {
-        //GameSettings.CurrentGameMode = "Tutorial"; 
-    }
-
 
     public void IniciarMainGame()
     {
