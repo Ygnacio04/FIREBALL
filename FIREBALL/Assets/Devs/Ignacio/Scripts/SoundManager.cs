@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.Audio;
-
+using System.Collections;
 public enum AudioFx
 {
 
@@ -95,4 +95,30 @@ public class SoundManager : MonoBehaviour
     {
         return fxAudioSource.volume; 
     }
+    public Coroutine FadeOutMusic(float duration)
+    {
+        return StartCoroutine(FadeOutMusicCoroutine(duration));
+    }
+
+    private IEnumerator FadeOutMusicCoroutine(float duration)
+    {
+        float startVolume = musicAudioSource.volume;
+        float time = 0f;
+
+        while (time < duration)
+        {
+            time += Time.deltaTime;
+            musicAudioSource.volume = Mathf.Lerp(startVolume, 0f, time / duration);
+            yield return null;
+        }
+
+        musicAudioSource.volume = 0f;
+        musicAudioSource.Stop();
+    }
+    public IEnumerator PlayFanfareAndWait(AudioClip fanfareClip)
+    {
+        fxAudioSource.PlayOneShot(fanfareClip);
+        yield return new WaitForSeconds(fanfareClip.length);
+    }
+
 }
