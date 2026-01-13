@@ -3141,6 +3141,8 @@ MonoBehaviour:
   MusicSlider: {fileID: 297777778}
   FXSlider: {fileID: 1148138355}
   sceneController: {fileID: 1724895731}
+  startGameFanfare: {fileID: 8300000, guid: 4f5cda64e7071f34497749161e8e61b3, type: 3}
+  musicFadeOutTime: 1.5
 --- !u!1001 &689021968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6104,6 +6106,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1194872803}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1194872804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6247,8 +6261,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c2a974436e625664a89356d7c4feba8c, type: 3}
+  m_Resource: {fileID: 8300000, guid: c2a974436e625664a89356d7c4feba8c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -9343,7 +9357,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7658c4b92264ba34596b3bfd1ac9c80f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fxClips: []
+  fxClips:
+  - {fileID: 8300000, guid: b9a6e75365f2c844c97c179a576f10fe, type: 3}
   musicClips: []
   ambienceClips: []
   musicAudioSource: {fileID: 1212970522}
