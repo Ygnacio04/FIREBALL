@@ -33,6 +33,11 @@ public class SoundManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject);
+
+            musicAudioSource.volume = PlayerPrefs.GetFloat("MusicVolume", 1f);
+            ambienceAudioSource.volume = PlayerPrefs.GetFloat("AmbienceVolume", 1f);
+            fxAudioSource.volume = PlayerPrefs.GetFloat("FXVolume", 1f);
         }
         else
         {
