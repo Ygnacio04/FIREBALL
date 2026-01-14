@@ -2,12 +2,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections;
+
 
 public class MenuController : MonoBehaviour
 {
     [SerializeField] private GameObject MainCanvas, OptionsCanvas;
     [SerializeField] private Slider AmbienceSlider, MusicSlider, FXSlider;
     [SerializeField] private SceneController sceneController;
+    [SerializeField] private AudioClip startGameFanfare;
+    [SerializeField] private float musicFadeOutTime = 1.5f;
 
     void Start()
     {
@@ -50,7 +54,23 @@ public class MenuController : MonoBehaviour
 
     public void IniciarMainGame()
     {
-        // Por ahora carga la escena de créditos como prueba
+        StartCoroutine(IniciarJuegoCoroutine());
+    }
+    private IEnumerator IniciarJuegoCoroutine()
+    {
+        if (SoundManager.Instance != null)
+        {
+            // Fade out música
+            yield return SoundManager.Instance.FadeOutMusic(musicFadeOutTime);
+
+            // Reproducir fanfarre
+            if (startGameFanfare != null)
+            {
+                yield return SoundManager.Instance.PlayFanfareAndWait(startGameFanfare);
+            }
+        }
+
+        // Cargar escena
         if (sceneController != null)
         {
             sceneController.LoadTutorialScene();
